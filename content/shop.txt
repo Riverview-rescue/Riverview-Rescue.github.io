@@ -1,0 +1,82 @@
+# ============================================================
+#  SHOP PAGE
+# ============================================================
+#
+#  Change the words after each colon. Leave the labels and the
+#  [section names] alone.
+#
+#  PRODUCTS
+#  Each [Product] block is one item. To add an item, copy a whole block
+#  and change its words. To remove one, delete the block.
+#
+#      Name                  the item's name                          (required)
+#      Design                a small line under the name              (optional)
+#      Price                 type it as you want it shown, e.g. $24.99
+#      Picture               a picture file from the folder assets/img/
+#      Picture description   what the picture shows
+#      Link                  the item's page on Bonfire (or any store)
+#
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+
+[Top of page]
+Small label: Shop
+Headline: Wear the herd on your sleeve.
+Text: Official Riverview Rescue merch, starring Jeffrey the steer. Every order supports the winter shelter fundraiser.
+
+
+[Collection]
+Small label: Winter shelter fundraiser — "Better together"
+Headline: Current collection
+Lead: Choose an item to pick your size and colour. Checkout, printing and shipping are handled securely by Bonfire.
+Footnote: Prices, colours and availability are set on Bonfire and may change. Product photos here are illustrative — see Bonfire for the exact item.
+Store button text: See the full store on Bonfire
+Store button link: https://www.bonfire.com/store/riverview-rescue/
+
+
+[Product]
+Name: Pullover Hoodie
+Design: Jeffrey design
+Price: $39.99
+Picture: merch-hoodie.jpg
+Picture description: Grey pullover hoodie with the Jeffrey design
+Link: https://www.bonfire.com/winter-shelter-fundraiser-4-6-4-2-3-1/?productType=0d740304-caed-4523-9662-ec5f86c44f6e
+
+[Product]
+Name: Crewneck Sweatshirt
+Design: Jeffrey design
+Price: $37.99
+Picture: jeffrey-art.jpg
+Picture description: The Jeffrey artwork printed on the crewneck sweatshirt
+Link: https://www.bonfire.com/winter-shelter-fundraiser-4-6-4-2-3-1/?productType=b2ffe678-62bc-415a-be70-acc2e9b75bbc
+
+[Product]
+Name: Classic Unisex Tee
+Design: Riverview logo design
+Price: $24.99
+Picture: merch-tee-grey.jpg
+Picture description: Grey unisex tee with the Riverview Rescue logo
+Link: https://www.bonfire.com/winter-shelter-fundraiser-4-6-4-2-3/?productType=1d7eda58-3af0-46b5-a3fa-1fe8158a9fbe
+
+[Product]
+Name: Women's Slim Fit Tee
+Design: Riverview logo design
+Price: $27.99
+Picture: merch-tee-dark.jpg
+Picture description: Dark tee with the Riverview Rescue logo
+Link: https://www.bonfire.com/winter-shelter-fundraiser-4-6-4-2-3/?productType=516ee799-7885-4da6-a590-af6b14f1d9a4
+
+
+# The section under the products
+[Feature]
+Small label: Meet the model
+Headline: Jeffrey the Steer
+Text: Riverview's 4,400-pound gentle giant is the face of the collection. Follow him on Instagram, then wear him around town and tell people about Nebraska's only cow sanctuary when they ask.
+Picture: jeffrey-art.jpg
+Picture description: Cartoon artwork of Jeffrey the steer resting by the Riverview Rescue barn
+Button text: @jeffreythesteer
+Button link: https://www.instagram.com/jeffreythesteer
+Second button text: Or simply donate
+Second button link: donate.html

@@ -1,0 +1,15 @@
+# Reference screenshots kept in the folder but not published
+Screenshot*.png
+*.zip
+
+# Local Netlify link (site id only)
+.netlify
+
+# Built site (made by "node build.js")
+dist/
+
+# Installed packages
+node_modules/
+
+# Screenshots from the test tools
+tools/*.png

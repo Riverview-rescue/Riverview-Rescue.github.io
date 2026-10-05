@@ -1,0 +1,68 @@
+# ============================================================
+#  OUR STORY  -  the "Our story" part of the home page
+# ============================================================
+#
+#  The story is a list of blocks, shown in the order you write them:
+#
+#      [Chapter]      a photo beside some words
+#      [Big quote]    one large quote on a dark background
+#
+#  To add a chapter, copy a whole [Chapter] block and change its words.
+#  To remove one, delete the block. The photos switch sides automatically.
+#
+#  Inside a chapter:
+#  - "Text" is a paragraph and "Quote" is a highlighted quote.
+#    Use as many as you like; they appear in the order you write them.
+#  - To quote someone inside a paragraph, just type "normal quote marks".
+#  - "Photo shape" is optional: write  square  for a square picture.
+#  - "Button text" and "Button link" are optional.
+#  - Put *stars* around a word to highlight it.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+Small label: Our story
+Headline: From the little girl who lost her cows, to the woman who saves them.
+Lead: Told in the words of Allison, Riverview's founder and only caretaker.
+
+
+[Chapter]
+Chapter name: Chapter one — The loss
+Title: Raised to be a third-generation beef farmer.
+Quote: When I was a kid, my cows were my whole world. They were my comfort, my friends, my family.
+Text: Allison grew up on a Nebraska cattle farm, expected to carry it on like the two generations before her. But the animals she was supposed to raise for market were the ones she loved most.
+Text: "One by one, they were sold. I was too young and helpless to stop it. That loss never left me."
+Photo: mama-newborn.jpg
+Photo description: A mother cow nuzzling her newborn calf in the grass
+Photo shape: square
+
+
+[Chapter]
+Chapter name: Chapter two — The choice
+Title: She dedicated her life to protecting them instead.
+Text: It began with three: a newborn steer named Jeffrey, the herd's oldest cow, Big Mama — who lived to be 29 — and her calf. When more cows were about to be sold, Allison saved them too.
+Text: She was rescuing cows before she knew what an animal sanctuary was. In time it became something Nebraska had never had: a place where cows are simply allowed to live.
+Quote: It's a small, woman-led cow rescue built from love, heartbreak, and determination.
+Text: Every cow here has a story of their own. Some were bound for slaughter; others were sick, old, neglected or abandoned. Here they finally have safety. They finally have peace. They finally have a home.
+Photo: allison-selfie.jpg
+Photo description: Allison smiling, cheek pressed against the face of a large black cow
+
+
+[Big quote]
+Small label: The promise
+Quote: No cow in my care would *ever* be lost again.
+Signed: Allison
+Button text: Why it matters: our mission
+Button link: mission.html
+
+
+[Chapter]
+Chapter name: Chapter three — Today
+Title: One person. Every feeding, every vet call, every cold night.
+Text: There is no staff at Riverview and no corporate backing. Allison runs it almost entirely on her own — feeding, caring for, and protecting each animal, every single day.
+Quote: Running Riverview Rescue alone is tough, but these incredible animals make it all worth it.
+Text: "These cows trust me with their lives. I'm just one person doing my best to give them a safe home — but I can't do it without help."
+Photo: allison-kiss.jpg
+Photo description: Allison, in a ball cap, touching noses with a brown calf
+Button text: Be part of their rescue story
+Button link: donate.html

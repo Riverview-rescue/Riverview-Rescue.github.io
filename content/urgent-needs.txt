@@ -1,0 +1,37 @@
+# ============================================================
+#  URGENT NEEDS  -  the dark "Urgent needs" section of the home page
+# ============================================================
+#
+#  Change the words after each colon. Leave the label before the colon alone.
+#
+#  - "Text" can be used more than once: each "Text:" line is a new paragraph.
+#  - "Need" can be used as many times as you like. Each one is a row in the list.
+#    Write the need, then a bar | , then a short word or amount for the right side:
+#        Need: Hay | needed now
+#        Need: Vet bill for Daisy | $450
+#    The part after the bar is optional.
+#  - "Quote" is optional. Delete the line to show no quote.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+Small label: Urgent needs
+Headline: Right now, the herd needs hay.
+
+Text: Drought and fires have pushed hay prices up, and a herd this size goes through it fast. Allison lives an hour from the cows and drives out every day to feed them, check on them and give them the care they need.
+
+Quote: My cows are my family, and they have nowhere else to go.
+
+Need: Hay | needed now
+Need: Essential daily care | ongoing
+Need: A secure home for the herd | always
+
+Closing line: If you can give even $5, it helps more than you know. And if you can't, sharing their story could save lives.
+
+# The gold button under the list
+Button text: Give to winter hay and shelters
+Button link: https://gofund.me/815f39fab
+
+# The photo beside the list. The picture file lives in the folder assets/img/
+Photo: prairie-cow.jpg
+Photo description: A rescued cow standing among cedar trees and dry prairie grass

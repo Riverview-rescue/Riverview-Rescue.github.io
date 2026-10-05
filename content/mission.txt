@@ -1,0 +1,84 @@
+# ============================================================
+#  MISSION PAGE  -  every word on the "Mission" page
+# ============================================================
+#
+#  The page is built from the sections below, in this order.
+#  Each section starts with its name in [square brackets].
+#  Change the words after each colon. Leave the labels and the
+#  [section names] alone.
+#
+#  - "Text" can be used more than once: each "Text:" line is a new paragraph.
+#  - Put *stars* around a word to highlight it, like *thirty-two*.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+
+[Top of page]
+Small label: Our mission
+Headline: A cow can live twenty years. Most are given less than two.
+Text: Riverview Rescue and Sanctuary exists to give rescued cows what they are almost never given: a whole life, lived in safety, with their family beside them.
+
+
+[What we believe]
+Small label: What we believe
+Quote: Every sentient being has feelings, emotions, family. All deserve a happy life.
+Lead: That sentence is the whole of it. A cow is not a product that happens to breathe. She is somebody: curious, cautious, playful, stubborn, loyal. She knows her friends and she knows her calf.
+Text: Our mission is simple. We take in cows who have nowhere else to go: the sick, the old, the neglected, the abandoned, and those bound for slaughter. We keep them fed, sheltered, cared for and known, for as long as they live. And by sharing their stories, we hope more eyes open to who these animals really are.
+
+
+# ------------------------------------------------------------
+#  The bar chart. Each "Bar" line has five parts separated by | bars:
+#
+#      Bar: name | small words under the name | years | words shown beside the bar | color
+#
+#  - "years" must be a plain number. It sets how long the bar is (30 is the full width).
+#    For weeks or months use a decimal: 6 months = 0.5
+#  - "color" is either  farming  (rust red)  or  sanctuary  (river blue).
+# ------------------------------------------------------------
+[A life, measured]
+Small label: A life, measured
+Headline: How long a cow lives depends on what she is for.
+Lead: Left to live out her days, a cow typically reaches 15 to 20 years. In farming, almost none come close.
+Bar: Veal calf | raised for meat | 0.33 | 16–18 weeks | farming
+Bar: Beef cattle | raised for meat | 1.7 | 18–22 months | farming
+Bar: Dairy cow | kept for milk | 5 | about 5 years | farming
+Bar: Natural lifespan | a cow allowed to live | 20 | 15–20 years | sanctuary
+Bar: Big Mama | at Riverview Rescue | 29 | 29 years | sanctuary
+Footnote: Farming figures are typical ages at slaughter. Big Mama was the herd's oldest cow, one of the first three Allison saved.
+
+
+# ------------------------------------------------------------
+#  The three boxes. Each "Card" line has three parts separated by | bars:
+#
+#      Card: small tag | title | text
+# ------------------------------------------------------------
+[Who they are]
+Small label: Who they are
+Headline: What the science says about cows.
+Card: Friendship | They have best friends. | In a study of dairy cattle at the University of Northampton, cows penned with a preferred companion had lower heart rates and were calmer than when penned with a cow who wasn't a close companion.
+Card: Family | Mothers and calves bond. | When a bonded cow and calf are separated early, researchers record both searching and calling for each other. At Riverview, they don't have to.
+Card: Time | They are built to live decades. | A cow's natural lifespan is 15 to 20 years, and some live far longer. Big Mama reached 29, more than fifteen times the life of a typical beef steer.
+
+
+[The scale of it]
+Small label: The scale of it
+Statement: 29.8 million cattle were slaughtered in the United States in 2025. Riverview has saved *thirty-two.*
+Text: It is a small number beside a very large one. But to each of those thirty-two, it is everything. And we hope everyone who comes to know them sees cows a little differently afterwards.
+
+
+# "Text" and "Quote" lines here appear on the page in the order you write them.
+[Where we come from]
+Small label: Where we come from
+Headline: This isn't about blame.
+Text: Riverview's founder was raised to be a third-generation beef farmer. She grew up inside this world, loving the animals she was expected to sell.
+Quote: When they were sold, I had no voice in what happened to them. I cried when they left, but I was still expected to help load them.
+Text: Nobody here is asking you to feel guilty. We are asking you to look: at a calf in a winter coat, at a 4,400-pound steer named Jeffrey, at a mother nuzzling her newborn. And to let it change what you see.
+Photo: allison-selfie.jpg
+Photo description: Allison smiling, cheek pressed against the face of a large black cow
+
+
+# The slim blue band at the bottom of the page
+[What you can do]
+Headline: Help one more cow grow old.
+Text: Feed the herd, share their story, or simply follow along and get to know them. Every one of those helps.

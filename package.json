@@ -1,0 +1,14 @@
+{
+  "name": "riverview-rescue-website",
+  "private": true,
+  "description": "Website for Riverview Rescue and Sanctuary",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

@@ -1,0 +1,78 @@
+# ============================================================
+#  THE HERD  -  the "Meet the herd" part of the home page
+# ============================================================
+#
+#  This part has three kinds of block:
+#
+#      [Photo]              one picture in the photo wall
+#      [Featured animal]    a box about one animal, with a picture and buttons
+#      [In loving memory]   a dark box remembering an animal
+#
+#  To add one, copy a whole block and change its words.
+#  To remove one, delete the block.
+#
+#  PHOTOS
+#  - Put the picture file in the folder assets/img/ and type its name after "Picture:".
+#  - "Title" is the bold words on the photo. "Caption" is the smaller line (optional).
+#  - "Description" says what is in the picture, for people who can't see it.
+#  - The wall arranges itself. The first two photos are the big ones;
+#    it looks best with 2, 5 or 8 photos.
+#
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+# The big number in the blue circle
+Big number: 32
+Big number label: rescued cows
+
+Small label: Meet the herd
+Headline: Thirty-two lives. One family.
+Lead: "Every sentient being has feelings, emotions, family. All deserve a happy life." These are some of the faces your support keeps safe, fed and together.
+
+
+[Photo]
+Picture: calf-coat.jpg
+Title: Bundled up for winter
+Caption: The littlest rescues get coats when Nebraska turns cold.
+Description: A black calf wearing a pink polka-dot coat, standing on straw
+
+[Photo]
+Picture: mama-calf.jpg
+Title: Families stay together
+Caption: Mamas at Riverview keep their babies — for life.
+Description: A calf standing close against its mother, both looking at the camera
+
+[Photo]
+Picture: prairie-cow.jpg
+Title: Room to just be a cow
+Description: A black cow standing in tall prairie grass in autumn
+
+[Photo]
+Picture: mama-newborn.jpg
+Title: A safe first day
+Description: A mother cow nuzzling her newborn calf
+
+[Photo]
+Picture: hero-cow.jpg
+Title: Curious, gentle, home
+Description: Close portrait of a black cow with milk on its chin
+
+
+[Featured animal]
+Tag: Herd celebrity
+Name: Jeffrey the Steer
+Text: Jeffrey is where it all began: when he was born, Allison agreed to help care for him only if she could keep him. Today he weighs roughly 4,400 pounds, has his own Instagram and stars on the rescue's hoodies and tees.
+Picture: jeffrey-art.jpg
+Picture description: Cartoon artwork of Jeffrey the steer resting in front of the Riverview Rescue barn
+Button text: @jeffreythesteer
+Button link: https://www.instagram.com/jeffreythesteer
+Second button text: Shop Jeffrey merch
+Second button link: shop.html
+
+
+[In loving memory]
+Tag: In loving memory
+Name: Big Mama
+Text: The herd's oldest cow, and one of the first three Allison ever saved, alongside her calf and a newborn Jeffrey.
+Text: At Riverview, Big Mama got to do something very few cows ever do: grow old. She lived to be 29.

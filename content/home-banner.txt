@@ -1,0 +1,41 @@
+# ============================================================
+#  HOME PAGE: THE TOP  -  the dark banner and the row of big numbers
+# ============================================================
+#
+#  Change the words after each colon. Leave the label before the colon alone.
+#
+#  - "Text" can be used more than once: each "Text:" line is a new paragraph.
+#  - A link can be a page of this site (donate.html, shop.html, mission.html),
+#    a spot on the home page (#story, #herd, #needs, #sponsors),
+#    or a full web address (https://...).
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+Small label: Hastings, Nebraska · Registered 501(c)(3)
+Headline: Riverview Rescue is the only cow rescue and sanctuary in the state of Nebraska.
+
+Text: Thirty-two rescued cows are safe here for life. Some were bound for slaughter; others were sick, old, neglected or abandoned. At Riverview, calves stay beside their mothers, the old are allowed to grow old, and every animal is fed, known and cared for every single day.
+Text: It is run by one woman who was raised to be a third-generation beef farmer — and chose to save them instead.
+
+Button text: Help feed the herd
+Button link: donate.html
+Second button text: Read the story
+Second button link: #story
+
+# The big photo, and the small white tag that sits on it.
+# The picture file lives in the folder assets/img/
+Photo: hero-cow.jpg
+Photo description: A black rescued cow looking straight into the camera under green trees
+Badge number: 32
+Badge text: rescued cows, safe here for life
+
+
+# ------------------------------------------------------------
+#  The row of big numbers under the banner (up to four).
+#  Write the number, then a bar | , then the words under it.
+# ------------------------------------------------------------
+[Numbers]
+Number: 1 | woman behind it all
+Number: 32 | rescued cows in the herd
+Number: 100% | of gifts go to food, shelter & medical care

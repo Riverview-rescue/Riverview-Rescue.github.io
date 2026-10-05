@@ -1,0 +1,90 @@
+# ============================================================
+#  SITE-WIDE  -  things that appear on every page
+# ============================================================
+#
+#  Change the words after each colon. Leave the labels and the
+#  [section names] alone.
+#  Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+# The thin bar across the very top of every page.
+# To remove the bar, delete the words after the colon (keep "Preview notice:").
+Preview notice: Preview draft of a new website for Riverview Rescue — not yet the official site.
+
+# ------------------------------------------------------------
+#  GOING OFFICIAL  -  the two lines to change on launch day
+#
+#  Website address: where the site lives. During testing it is the
+#  github.io address. On launch day change it to the real one,
+#  for example  https://www.riverview-rescue.com
+#
+#  Hide from search engines: "yes" keeps the test site out of Google.
+#  Change it to "no" on launch day so people can find the site.
+# ------------------------------------------------------------
+Website address: https://riverview-rescue.github.io
+Hide from search engines: yes
+
+# The contact email used around the site
+Email: rvrscows@gmail.com
+# The words shown before the email in the footer
+Contact words: Contact us at
+
+
+[Footer]
+Name line: Riverview Rescue and Sanctuary
+Location: Hastings, Nebraska
+About: Nebraska's only cow rescue and sanctuary.
+Nonprofit line: Registered 501(c)(3) nonprofit, EIN 39-3925319. Donations are tax-deductible.
+Copyright: Riverview Rescue and Sanctuary. All photos courtesy of Riverview Rescue and Sanctuary.
+Sign-off: Made with love for the herd.
+
+
+# The blue band of social media links near the bottom of the home page
+[Follow band]
+Headline: Follow the herd
+Text: Herd updates, cookie runs and daily cow love.
+Question: Questions, or want to help another way?
+
+
+# ------------------------------------------------------------
+#  SOCIAL MEDIA LINKS
+#  Each [Social] block is one link. The logo is picked automatically
+#  for Facebook, Instagram, TikTok, YouTube and Threads.
+#
+#      Name             which site it is
+#      Handle           what people see, e.g. @riverviewrescue
+#      Address          the full web address of the page
+#      Show in footer   yes or no (optional; yes if left out)
+# ------------------------------------------------------------
+
+[Social]
+Name: Facebook
+Handle: @RViewRescueFarm
+Address: https://www.facebook.com/RViewRescueFarm
+
+[Social]
+Name: Instagram
+Handle: @riverviewrescue
+Address: https://instagram.com/riverviewrescue
+
+[Social]
+Name: TikTok
+Handle: @riverviewrescue
+Address: https://tiktok.com/@riverviewrescue
+
+[Social]
+Name: YouTube
+Handle: @riverviewrescue1371
+Address: https://youtube.com/@riverviewrescue1371
+
+[Social]
+Name: Threads
+Handle: @riverviewrescue
+Address: https://www.threads.com/riverviewrescue
+
+[Social]
+Name: Jeffrey on Instagram
+Handle: @jeffreythesteer
+Address: https://www.instagram.com/jeffreythesteer
+Show in footer: no

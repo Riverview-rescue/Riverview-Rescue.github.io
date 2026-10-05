@@ -1,0 +1,173 @@
+# ============================================================
+#  FAQ PAGE  -  questions and answers
+# ============================================================
+#
+#  Each [Question] block is one question. To add one, copy a whole
+#  block and change its words. To remove one, delete the block.
+#  They appear in the order written.
+#
+#      Question      the question                               (required)
+#      Answer        the answer. Use "Answer:" again for a second paragraph.
+#      Button text   an optional button under the answer
+#      Button link   where the button goes: a page of this site
+#                    (donate.html, shop.html, mission.html, index.html#herd)
+#                    or a full web address
+#
+#  A [Group] block puts a heading above the questions that follow it:
+#
+#      [Group]
+#      Title: Donating
+#
+#  - An email or web address typed in an answer becomes a link by itself.
+#  - Put *stars* around a word to make it stand out.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+#  ALLISON: four answers below are marked "PLEASE CHECK". They are
+#  written carefully so they promise nothing, because only you know
+#  the real answer. Please rewrite them in your own words.
+#
+# ============================================================
+
+
+[Top of page]
+Small label: Questions and answers
+Headline: Frequently asked questions
+Text: The things people ask us most about the sanctuary, the herd and how to help.
+
+
+# ------------------------------------------------------------
+[Group]
+Title: About the sanctuary
+
+[Question]
+Question: What is Riverview Rescue and Sanctuary?
+Answer: Riverview is the only cow rescue and sanctuary in the state of Nebraska, and a registered 501(c)(3) nonprofit. It gives rescued cows a safe home for the rest of their lives.
+Answer: It was founded and is run by Allison, who was raised to be a third-generation beef farmer and chose to save cows instead.
+Button text: Read our story
+Button link: index.html#story
+
+[Question]
+Question: Where are you located?
+Answer: We are based in the Hastings, Nebraska area.
+
+[Question]
+Question: Who looks after the cows?
+Answer: Allison does, almost entirely on her own. There is no paid staff and no corporate backing. She lives an hour from the herd and drives out every day to feed them, check on them and give them the care they need.
+
+[Question]
+Question: Why does a cow sanctuary matter?
+Answer: A cow can naturally live 15 to 20 years, yet most are given less than two. We believe every sentient being has feelings, emotions and family, and that all deserve a happy life.
+Button text: Read our mission
+Button link: mission.html
+
+
+# ------------------------------------------------------------
+[Group]
+Title: The herd
+
+[Question]
+Question: How many cows have you rescued?
+Answer: Thirty-two so far.
+Button text: Meet the herd
+Button link: index.html#herd
+
+[Question]
+Question: Where do the cows come from?
+Answer: Each one has a different story. Some were bound for slaughter. Others were sick, old, neglected or abandoned.
+Answer: It began with three: a newborn steer named Jeffrey, the herd's oldest cow, Big Mama, and her calf. When more cows were about to be sold, Allison saved them too.
+
+[Question]
+Question: Who is Jeffrey?
+Answer: Jeffrey the Steer is where it all began. When he was born, Allison agreed to help care for him only if she could keep him. Today he weighs roughly 4,400 pounds and has his own Instagram, @jeffreythesteer.
+Button text: Follow Jeffrey on Instagram
+Button link: https://www.instagram.com/jeffreythesteer
+
+[Question]
+Question: Will the cows ever be sold or sent to slaughter?
+Answer: No. Riverview is a sanctuary, and the animals are here for life. In Allison's words: "No cow in my care would ever be lost again."
+
+# PLEASE CHECK
+[Question]
+Question: Can you take in a cow that needs a home?
+Answer: Please email rvrscows@gmail.com and tell us about the animal and the situation. Riverview is run by one person, and every animal we take in has to be fed and cared for for life, so please understand that we can't always say yes.
+
+
+# ------------------------------------------------------------
+[Group]
+Title: Donating
+
+[Question]
+Question: How can I donate?
+Answer: You can give by Venmo, PayPal (with or without a PayPal account), Zelle, Donorbox or GoFundMe. Every option is on our Donate page.
+Button text: See all the ways to give
+Button link: donate.html
+
+[Question]
+Question: Is my donation tax-deductible?
+Answer: Yes. Riverview Rescue and Sanctuary is a registered 501(c)(3) nonprofit, EIN 39-3925319. Gifts are deductible to the extent allowed by law. Keep the receipt from Venmo, PayPal, Zelle, Donorbox or GoFundMe for your records.
+
+[Question]
+Question: Where does my money go?
+Answer: Every dollar goes directly to food, shelter and medical care for the cows: hay and feed, vet visits, bedding, and safe shelter to get the herd out of the weather.
+
+[Question]
+Question: Can I set up a recurring gift?
+Answer: Yes. On Donorbox you can choose to give regularly when you donate. Hay and feed bills keep coming all year, so steady gifts help the most.
+Button text: Give with Donorbox
+Button link: https://donorbox.org/help-us-catch-up-keep-the-cows-home
+
+[Question]
+Question: Is a small gift really worth it?
+Answer: Yes. No gift is too small. In Allison's words: "If you can donate, even $5, it helps more than you know."
+
+[Question]
+Question: Will my employer match my gift?
+Answer: Many employers match donations to 501(c)(3) nonprofits. Ask yours, and give them our EIN: 39-3925319.
+
+
+# ------------------------------------------------------------
+[Group]
+Title: Other ways to help
+
+[Question]
+Question: What does the herd need most right now?
+Answer: Hay. Drought and fires have pushed hay prices up, and a herd this size goes through it fast.
+Button text: See our urgent needs
+Button link: index.html#needs
+
+# PLEASE CHECK
+[Question]
+Question: Can I donate hay or supplies?
+Answer: Please email rvrscows@gmail.com first, so we can tell you what the herd needs most and how to get it to us.
+
+# PLEASE CHECK
+[Question]
+Question: Can I visit the sanctuary?
+Answer: Please email rvrscows@gmail.com to ask. Riverview is cared for by one person, so it may take a little while to hear back.
+
+# PLEASE CHECK
+[Question]
+Question: Can I volunteer?
+Answer: Please email rvrscows@gmail.com and tell us how you would like to help.
+
+[Question]
+Question: Can my business become a sponsor?
+Answer: Yes, we would love that. Sponsors are thanked by name on our home page, with a link to their website. Email rvrscows@gmail.com to get started.
+Button text: See our sponsors
+Button link: index.html#sponsors
+
+[Question]
+Question: Do you sell merchandise?
+Answer: Yes. Hoodies, sweatshirts and tees are printed and shipped by Bonfire, and there is a Riverview storefront on Walmart.
+Button text: Visit the shop
+Button link: shop.html
+
+[Question]
+Question: I can't give right now. How else can I help?
+Answer: Follow Riverview on social media and share our posts or this website. It costs nothing, and reaching the right person could make all the difference.
+
+
+# The box at the bottom of the page
+[Still have a question]
+Headline: Still have a question?
+Text: Write to us and we will do our best to answer.

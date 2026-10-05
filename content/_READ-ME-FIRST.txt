@@ -1,0 +1,102 @@
+RIVERVIEW RESCUE AND SANCTUARY WEBSITE
+How to change the words on the site
+========================================================================
+
+This folder holds every word on the website. Each file is plain text.
+There is no code in them.
+
+    WHICH FILE                 WHAT IT CHANGES
+    ---------------------------------------------------------------
+    home-banner.txt            Home page: the top banner and the big numbers
+    our-story.txt              Home page: "Our story" (the chapters and the promise)
+    the-herd.txt               Home page: "Meet the herd" (photos, Jeffrey, Big Mama)
+    urgent-needs.txt           Home page: "Urgent needs"
+    sponsors.txt               Home page: the sponsor boxes
+    mission.txt                The Mission page
+    donate.txt                 The Donate page (payment boxes and wording)
+    shop.txt                   The Shop page (products and prices)
+    faq.txt                    The FAQ page (questions and answers)
+    site-wide.txt              Things on every page: the footer, the contact
+                               email, the social media links, the top notice
+
+
+THE THREE RULES
+------------------------------------------------------------------------
+
+1. Every line looks like this:
+
+       Label: the words that appear on the website
+
+   Change the words AFTER the colon. Leave the label BEFORE the colon
+   exactly as it is.
+
+2. Lines that start with # are notes for you. The website ignores them.
+   Each file has notes at the top explaining that file.
+
+3. Words in [square brackets] start a block, for example [Photo],
+   [Chapter], [Payment], [Product], [Question] or [Sponsor].
+   To add another one, copy the whole block and change its words.
+   To remove one, delete the whole block.
+
+
+HANDY THINGS
+------------------------------------------------------------------------
+
+  - A long paragraph can run onto as many lines as you like.
+  - Put *stars* around a word to make it stand out.
+  - To quote someone inside a paragraph, type "normal quote marks".
+  - An email address typed in a paragraph becomes a link by itself.
+  - Links can be a full web address (https://...), a page of this site
+    (donate.html, shop.html, mission.html) or a spot on the home page
+    (#story, #herd, #needs, #sponsors).
+
+
+WHAT HAPPENS IF I MAKE A MISTAKE?
+------------------------------------------------------------------------
+
+Nothing breaks. If a line can't be understood it is simply left off the
+page, and the rest of the site carries on as before. Fix the line and
+it comes back.
+
+A few things are fixed up for you:
+  - A web address typed as  www.example.com  works; you don't need https://
+  - If a picture name is misspelled, the old picture is used instead,
+    or the picture is left out.
+
+
+HOW TO EDIT A FILE  (once the site is connected for editing)
+------------------------------------------------------------------------
+
+ 1. Go to the website's page on github.com and sign in.
+ 2. Open the "content" folder and click the file you want.
+ 3. Click the pencil icon (top right of the file).
+ 4. Make your changes.
+ 5. Click the green "Commit changes" button, then "Commit changes" again.
+ 6. Wait about a minute, then refresh the website. Your change is live.
+
+To undo a change, open the file again, click "History", and you can see
+and bring back any earlier version.
+
+
+ADDING A PICTURE
+------------------------------------------------------------------------
+
+Photos go in the folder          assets/img/
+Sponsor logos go in the folder   assets/img/sponsors/
+
+On github.com, open that folder, click "Add file", then "Upload files".
+Then type the picture's file name in the text file, for example:
+
+    Picture: daisy-in-the-snow.jpg
+
+You do not need to resize anything. A photo straight from a phone or a
+very large logo is shrunk automatically for the website, and your
+original file is left as it is. Simple file names are easiest to type:
+lowercase letters, numbers and dashes.
+
+
+WHAT IS NOT IN THIS FOLDER
+------------------------------------------------------------------------
+
+The menu at the top, the colours and the layout are part of the site's
+design. Ask whoever looks after the website to change those.

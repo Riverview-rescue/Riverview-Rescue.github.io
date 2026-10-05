@@ -1,0 +1,78 @@
+# ============================================================
+#  SPONSORS  -  shown in the "Our sponsors" section of the home page
+# ============================================================
+#
+#  HOW TO ADD A SPONSOR
+#  Copy the lines below, paste them at the bottom of this file,
+#  and change the words after each colon:
+#
+#      [Sponsor]
+#      Name: Smith Family Feed Store
+#      Website: https://www.smithfeed.com
+#      Note: Hastings, Nebraska
+#      Logo: smith-feed.png
+#
+#      Name      the sponsor's name                              (required)
+#      Website   where the box takes people when they click it   (recommended)
+#      Note      one short line under the name                   (optional)
+#      Logo      the file name of their logo picture             (optional)
+#
+#  - Sponsors appear on the site in the same order as in this file.
+#  - To remove a sponsor, delete its whole block.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+#
+#  HOW TO ADD A LOGO
+#
+#   1. Get the logo as a picture file from the sponsor. PNG or JPG both work.
+#   2. Put the file in the folder:   assets/img/sponsors/
+#      (on github.com: open that folder, click "Add file", then "Upload files")
+#   3. Add a "Logo:" line to that sponsor with the file's name, for example:
+#          Logo: smith-feed.png
+#
+#  You do not need to resize or crop anything.
+#  - Any size works. A very large picture is shrunk automatically, so it
+#    will not slow the page down. Your original file is never changed.
+#  - Any shape works. Wide, tall or square logos are all fitted inside the
+#    same space, never stretched and never cut off.
+#  - Logos look best on a white or see-through background.
+#  - Capital letters in the name don't matter: "Smith-Feed.PNG" finds "smith-feed.png".
+#  - If the name is misspelled or the file is missing, the box simply shows
+#    the sponsor's initials instead, the same as a sponsor with no logo.
+#
+# ============================================================
+
+Small label: Our sponsors
+Heading: The friends who help keep the herd fed.
+Intro: These businesses and neighbors stand behind Riverview Rescue and Sanctuary. Please support them the way they support the cows.
+
+# The last box on the page invites new sponsors. These two lines control it.
+Invitation: Become a sponsor
+Contact email: rvrscows@gmail.com
+
+
+# ------------------------------------------------------------
+#  The four sponsors below are EXAMPLES so you can see how the
+#  section looks. Replace them with real sponsors, or delete them.
+#  The first one shows a logo; the others show initials.
+# ------------------------------------------------------------
+
+[Sponsor]
+Name: Your Business Here
+Website: https://example.com
+Note: Example sponsor with a logo
+Logo: example-logo.png
+
+[Sponsor]
+Name: Example Feed & Supply
+Website: https://example.com
+Note: Hastings, Nebraska
+
+[Sponsor]
+Name: Example Veterinary Clinic
+Website: https://example.com
+Note: Caring for the herd
+
+[Sponsor]
+Name: Example Family Foundation
+Website: https://example.com

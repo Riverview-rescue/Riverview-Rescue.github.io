@@ -1,0 +1,106 @@
+# ============================================================
+#  DONATE PAGE
+# ============================================================
+#
+#  Change the words after each colon. Leave the labels and the
+#  [section names] alone.
+#
+#  PAYMENT BOXES
+#  Each [Payment] block is one box. To add a new way to give (Cash App,
+#  a check by mail...), copy a whole block and change its words.
+#  To remove one, delete the block. They appear in the order written.
+#
+#      Name          the title of the box                       (required)
+#      Tag           the small label in the corner              (optional)
+#      Text          a sentence under the title                 (optional)
+#      Code          a username or number, shown with a "Copy" button  (optional)
+#      Note          a small line under the code                (optional)
+#      QR picture    a QR code image from the folder assets/img/       (optional)
+#      Button text   the words on the button                    (optional)
+#      Button link   where the button goes                      (needed with Button text)
+#      Second button text / Second button link                  (optional)
+#
+#  - Put *stars* around a word to make it stand out.
+#  - Lines that start with # are notes like this one. The website ignores them.
+#
+# ============================================================
+
+
+[Top of page]
+Headline: They can't ask for help. So we're asking for them.
+Text: The cows at Riverview came here by many roads: some were bound for slaughter, others were sick, old, neglected or abandoned. They have nowhere else to go. One woman shows up for them every single day, and your gift is what keeps the hay coming and the herd together.
+# The gold line
+Highlight: No gift is too small: every contribution makes a real difference to an animal here. Every dollar goes directly to food, shelter and medical care, and your gift is tax-deductible.
+
+
+[Payment]
+Name: Venmo
+Tag: Fastest
+Code: @Iheartcows41
+Note: If Venmo asks, last 4 digits of the phone: *1578*
+QR picture: venmo-qr.svg
+Button text: Give with Venmo
+Button link: https://venmo.com/u/Iheartcows41
+
+[Payment]
+Name: PayPal
+Tag: Card or PayPal
+Text: Use your PayPal balance or any credit or debit card. No PayPal account needed.
+Button text: Give with PayPal
+Button link: https://www.paypal.com/donate/?hosted_button_id=4ZHGNHM7NQQAG
+
+[Payment]
+Name: Zelle
+Tag: Bank to bank
+Text: Send from your banking app to this number:
+Code: 308-379-1578
+
+[Payment]
+Name: Donorbox
+Tag: One-time or recurring
+Text: Give once by card, or set up a recurring gift to stand with the herd all year.
+Button text: Give with Donorbox
+Button link: https://donorbox.org/help-us-catch-up-keep-the-cows-home
+
+[Payment]
+Name: GoFundMe
+Tag: Urgent
+Text: Winter hay and shelters — the herd's most pressing costs, hay first.
+Button text: Give on GoFundMe
+Button link: https://gofund.me/815f39fab
+
+[Payment]
+Name: Shop to give
+Tag: Merch
+Text: Hoodies and tees printed by Bonfire, or Riverview's storefront on Walmart.
+Button text: Visit the shop
+Button link: shop.html
+Second button text: Walmart store
+Second button link: https://walmrt.us/49HLGqc
+
+
+# The pale blue note under the payment boxes
+[Tax note]
+Bold start: Your donation is tax-deductible.
+Text: Riverview Rescue and Sanctuary is a registered 501(c)(3) nonprofit, EIN 39-3925319. Gifts are deductible to the extent allowed by law — keep the receipt from Venmo, PayPal, Zelle, Donorbox or GoFundMe for your records.
+
+
+# "Text" and "Quote" lines appear in the order you write them.
+# Each "Way" line is one bullet: the bold part, then a bar | , then the rest.
+[Where your gift goes]
+Small label: Where your gift goes
+Headline: Food. Shelter. Medical care. That's it.
+Text: Allison does the work herself, so your donation goes straight to the animals: hay and feed, vet visits, bedding, winter coats for calves, and safe shelter to get the herd out of the weather.
+Quote: If you can donate, even $5, it helps more than you know. If you can't, sharing this could save lives.
+Photo: calf-coat.jpg
+Photo description: A rescued calf in a pink polka-dot winter coat
+More ways heading: More ways to help
+Way: Double your gift at work. | Many employers match donations to 501(c)(3) nonprofits. Ask yours, and give them our EIN: 39-3925319.
+Way: Have hay or supplies to offer? | Email rvrscows@gmail.com to ask what the herd needs most.
+Way: Give in someone's name. | A donation makes a kind gift for an animal lover — forward them your receipt and this page.
+
+
+# The blue band at the bottom, above the social media links
+[Share band]
+Headline: Can't give right now? Sharing is giving, too.
+Text: Follow Riverview and pass it on. It costs nothing and it truly helps.
