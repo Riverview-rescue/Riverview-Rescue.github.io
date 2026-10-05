@@ -27,7 +27,7 @@
 
 
 [Top of page]
-Headline: They can't ask for help. So we're asking for them. Please help if you can.
+Headline: They can't ask for help. So we're asking for them.
 Text: The cows at Riverview came here by many roads: some were bound for slaughter, others were sick, old, neglected or abandoned. They have nowhere else to go. One woman shows up for them every single day, and your gift is what keeps the hay coming and the herd together.
 # The gold line
 Highlight: No gift is too small: every contribution makes a real difference to an animal here. Every dollar goes directly to food, shelter and medical care, and your gift is tax-deductible.
