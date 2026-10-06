@@ -147,6 +147,16 @@ async function build() {
 </html>
 `);
   }
+
+  // A list of the pages for search engines. Left out while the site is hidden from them.
+  if (!shared.robots) {
+    const today = new Date().toISOString().slice(0, 10);
+    const pages = fs.readdirSync(OUT).filter((f) => f.endsWith('.html') && f !== '404.html').sort((a, b) => (a === 'index.html' ? -1 : b === 'index.html' ? 1 : a.localeCompare(b)));
+    const urls = pages.map((f) => `  <url><loc>${shared.siteUrl}/${f === 'index.html' ? '' : f}</loc><lastmod>${today}</lastmod></url>`);
+    fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
+    fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${shared.siteUrl}/sitemap.xml\n`);
+  }
+
   const shrunk = await shrinkPictures();
 
   console.log('Built the site into dist/');
