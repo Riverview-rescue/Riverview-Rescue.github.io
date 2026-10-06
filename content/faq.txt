@@ -22,10 +22,6 @@
 #  - Put *stars* around a word to make it stand out.
 #  - Lines that start with # are notes like this one. The website ignores them.
 #
-#  ALLISON: four answers below are marked "PLEASE CHECK". They are
-#  written carefully so they promise nothing, because only you know
-#  the real answer. Please rewrite them in your own words.
-#
 # ============================================================
 
 
@@ -86,11 +82,6 @@ Button link: https://www.instagram.com/jeffreythesteer
 Question: Will the cows ever be sold or sent to slaughter?
 Answer: No. Riverview is a sanctuary, and the animals are here for life. In Allison's words: "No cow in my care would ever be lost again."
 
-# PLEASE CHECK
-[Question]
-Question: Can you take in a cow that needs a home?
-Answer: Please email rvrscows@gmail.com and tell us about the animal and the situation. Riverview is run by one person, and every animal we take in has to be fed and cared for for life, so please understand that we can't always say yes.
-
 
 # ------------------------------------------------------------
 [Group]
@@ -134,21 +125,6 @@ Question: What does the herd need most right now?
 Answer: Hay. Drought and fires have pushed hay prices up, and a herd this size goes through it fast.
 Button text: See our urgent needs
 Button link: index.html#needs
-
-# PLEASE CHECK
-[Question]
-Question: Can I donate hay or supplies?
-Answer: Please email rvrscows@gmail.com first, so we can tell you what the herd needs most and how to get it to us.
-
-# PLEASE CHECK
-[Question]
-Question: Can I visit the sanctuary?
-Answer: Please email rvrscows@gmail.com to ask. Riverview is cared for by one person, so it may take a little while to hear back.
-
-# PLEASE CHECK
-[Question]
-Question: Can I volunteer?
-Answer: Please email rvrscows@gmail.com and tell us how you would like to help.
 
 [Question]
 Question: Can my business become a sponsor?

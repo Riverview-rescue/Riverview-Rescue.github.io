@@ -10,20 +10,19 @@
 
 # The thin bar across the very top of every page.
 # To remove the bar, delete the words after the colon (keep "Preview notice:").
-Preview notice: Preview draft of a new website for Riverview Rescue — not yet the official site.
+Preview notice:
 
 # ------------------------------------------------------------
-#  GOING OFFICIAL  -  the two lines to change on launch day
+#  THE OFFICIAL ADDRESS  -  set on launch day, 6 October 2026
 #
-#  Website address: where the site lives. During testing it is the
-#  github.io address. On launch day change it to the real one,
-#  for example  https://www.riverview-rescue.com
+#  Website address: where the site lives. Only change this if the
+#  site ever moves to a different web address.
 #
-#  Hide from search engines: "yes" keeps the test site out of Google.
-#  Change it to "no" on launch day so people can find the site.
+#  Hide from search engines: "no" lets people find the site on Google.
+#  "yes" would hide it, which is only useful for a test site.
 # ------------------------------------------------------------
-Website address: https://riverview-rescue.github.io
-Hide from search engines: yes
+Website address: https://www.riverviewrescue.me
+Hide from search engines: no
 
 # The contact email used around the site
 Email: rvrscows@gmail.com
