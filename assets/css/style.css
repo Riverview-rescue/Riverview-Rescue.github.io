@@ -677,3 +677,15 @@ button.btn-outline:hover { background: var(--ink); }
 .footer-links { gap: 0 0.7rem; }
 .footer-links a { min-width: 44px; justify-content: center; }
 .footer-about a { color: #fff; font-weight: 600; margin-left: 0.15rem; }
+
+/* ---------- Round badge logo in the header (clipped to its circle, white inside) ---------- */
+.brand img { width: 64px; border-radius: 50%; mix-blend-mode: normal; }
+@media (max-width: 1180px) { .brand img { width: 60px; } }
+@media (min-width: 821px) and (max-width: 1000px) { .brand img { width: 54px; } }
+@media (max-width: 560px) { .brand img { width: 52px; } }
+@media (max-width: 390px) { .brand img { width: 44px; } }
+
+/* ---------- Sponsors section with no sponsors yet: just the invitation box, centred and compact ---------- */
+#sponsors:has(.sponsors > :only-child) { padding: 2.6rem 0; }
+.sponsors:has(> :only-child) { display: flex; justify-content: center; margin-top: 1.2rem; }
+.sponsors > :only-child { aspect-ratio: auto; width: min(100%, 300px); padding: 1.1rem 1rem; }

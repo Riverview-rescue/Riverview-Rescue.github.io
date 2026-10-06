@@ -246,18 +246,20 @@ function sponsors() {
       ? `          <a class="sponsor reveal" href="${esc(l.href)}" target="_blank" rel="noopener sponsored">${inner}<span class="sponsor-go">Visit website</span></a>`
       : `          <div class="sponsor reveal">${inner}</div>`);
   }
+  // With no sponsors listed, the [No sponsors yet] wording replaces the usual heading and intro.
+  const none = tiles.length ? [] : (sections(doc, 'No sponsors yet')[0] || []);
   const email = first(doc.top, 'contact email', shared.email);
   const invite = first(doc.top, 'invitation');
   if (invite && /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
     tiles.push(`          <a class="sponsor sponsor-invite reveal" href="mailto:${esc(email)}?subject=${encodeURIComponent('Sponsoring Riverview Rescue and Sanctuary')}"><span class="sponsor-mark" aria-hidden="true">+</span><b>${fmt(invite)}</b><span class="sponsor-note">Email ${esc(email)}</span></a>`);
   }
   if (!tiles.length) return '';
-  const intro = first(doc.top, 'intro');
+  const intro = first(none, 'intro', first(doc.top, 'intro'));
   return `    <section class="section section-paper" id="sponsors">
       <div class="wrap">
         <div class="narrow center reveal">
-          ${eyebrow(doc.top, 'Our sponsors')}
-          <h2>${fmt(first(doc.top, 'heading', 'Thank you to our sponsors'))}</h2>
+          ${eyebrow(first(none, 'small label') ? none : doc.top, 'Our sponsors')}
+          <h2>${fmt(first(none, 'heading', first(doc.top, 'heading', 'Thank you to our sponsors')))}</h2>
 ${intro ? `          <p class="lead">${rich(intro)}</p>\n` : ''}        </div>
         <div class="sponsors">
 ${tiles.join('\n')}

@@ -54,7 +54,7 @@ Publishing is automatic. Whenever a file changes on the `main` branch, GitHub bu
 
 ## Before it becomes the official site
 
-1. Replace the example sponsors in `content/sponsors.txt` with real ones, and finish the FAQ answers marked "PLEASE CHECK" in `content/faq.txt`.
+1. Add real sponsors to `content/sponsors.txt` as they sign on (none are listed yet), and finish the FAQ answers marked "PLEASE CHECK" in `content/faq.txt`.
 2. In `content/site-wide.txt`: empty the `Preview notice:` line, set `Website address:` to the real address, and set `Hide from search engines:` to `no`.
 3. In the repository's Settings, under Pages, enter the custom domain; then add the DNS records GitHub lists at the company where the domain is registered.
 
@@ -74,3 +74,6 @@ Not shown on the site, kept here in case anyone asks where a number came from.
 - U.S. commercial cattle slaughter, 2025: USDA National Agricultural Statistics Service, Livestock Slaughter 2025 Summary (https://www.nass.usda.gov/Publications/Todays_Reports/reports/lsan0426.pdf)
 - Social bonds and stress: K. M. McLennan (2013), “Social bonds in dairy cattle”, University of Northampton (https://nectar.northampton.ac.uk/id/eprint/6466/1/McLennan_Krista_2013_Social_bonds_in_dairy_cattle_the_effect_of_dynamic_group_systems_on_welfare_and_productivity.pdf)
 - Cow and calf separation: overview of the research on cow–calf separation (https://en.wikipedia.org/wiki/Cow-calf_separation)
+- Calves taken within hours on most dairy farms: USDA NAHMS Dairy 2014 (about 24% of producers within 1 hour, a further 57% within 14 hours), as quoted in Journal of Dairy Science (https://www.journalofdairyscience.org/article/S0022-0302(26)00169-4/fulltext). Read in a search summary, not in the USDA report itself.
+- Dehorning and castration often without pain relief: USDA NAHMS 2007 (fewer than 20% of dairy operations used pain relief for dehorning), as quoted in “On-farm pain management of food production animals” (https://www.sciencedirect.com/science/article/pii/S2590286521000100). Read in a search summary; the figure is old, so the page says “often” and gives no number.
+- Male dairy calves sold for veal or beef, and cows as calm animals that groom one another: general knowledge, no source checked.

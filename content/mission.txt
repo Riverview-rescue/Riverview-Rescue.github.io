@@ -17,14 +17,40 @@
 [Top of page]
 Small label: Our mission
 Headline: A cow can live twenty years. Most are given less than two.
-Text: Riverview Rescue and Sanctuary exists to give rescued cows what they are almost never given: a whole life, lived in safety, with their family beside them.
+Text: Cows are gentle, feeling animals who love their families and want to live. Riverview Rescue and Sanctuary exists to give rescued cows what they are almost never given: a whole life, lived in safety, with their family beside them.
 
 
 [What we believe]
 Small label: What we believe
 Quote: Every sentient being has feelings, emotions, family. All deserve a happy life.
-Lead: That sentence is the whole of it. A cow is not a product that happens to breathe. She is somebody: curious, cautious, playful, stubborn, loyal. She knows her friends and she knows her calf.
-Text: Our mission is simple. We take in cows who have nowhere else to go: the sick, the old, the neglected, the abandoned, and those bound for slaughter. We keep them fed, sheltered, cared for and known, for as long as they live. And by sharing their stories, we hope more eyes open to who these animals really are.
+Lead: A cow is not a product that happens to breathe. She is somebody: gentle, curious, playful, stubborn, loyal. She knows her friends and she knows her calf. She feels fear and pain as surely as we do, and comfort and joy too.
+Text: We share this earth with them. It was never ours alone. Animals this peaceful should not have to suffer and die young for our benefit, and we believe a kinder way of living alongside them is possible.
+Text: So our mission is simple. We take in cows who have nowhere else to go: the sick, the old, the neglected, the abandoned, and those bound for slaughter. We keep them fed, sheltered, cared for and known, for as long as they live. And by sharing their stories, we hope more eyes open to who these animals really are.
+
+
+# ------------------------------------------------------------
+#  The three boxes. Each "Card" line has three parts separated by | bars:
+#
+#      Card: small tag | title | text
+# ------------------------------------------------------------
+[Who they are]
+Small label: Who they are
+Headline: Gentle, loyal and loving.
+Card: Gentleness | They are peaceful by nature. | Cows are calm herd animals. They groom one another, rest side by side, and those who learn to trust people will lean in for a scratch like a family dog.
+Card: Friendship | They have best friends. | In a study of dairy cattle at the University of Northampton, cows penned with a preferred companion had lower heart rates and were calmer than when penned with a cow who wasn't a close companion.
+Card: Family | Mothers and calves bond. | When a bonded cow and calf are separated early, researchers record both searching and calling for each other. At Riverview, they don't have to.
+
+
+# ------------------------------------------------------------
+#  Three more boxes, written the same way as the ones above.
+# ------------------------------------------------------------
+[What farming takes]
+Small label: What farming takes from them
+Headline: What we ask them to give up for us.
+Lead: None of this is rare or hidden. It is the ordinary routine of raising cattle for milk and meat.
+Card: Her calf | Taken within hours. | A cow only gives milk after she has a calf. On most dairy farms the calf is taken from her within hours of birth, so the milk can be sold. She goes through this again and again.
+Card: Her sons | No use to a dairy. | A male calf will never give milk. Most born on dairy farms are sold while still babies, to be raised for veal or beef.
+Card: Her comfort | Pain without relief. | Horns are removed and young males are castrated as a matter of routine, and it is often done with nothing given for the pain.
 
 
 # ------------------------------------------------------------
@@ -37,7 +63,7 @@ Text: Our mission is simple. We take in cows who have nowhere else to go: the si
 #  - "color" is either  farming  (rust red)  or  sanctuary  (river blue).
 # ------------------------------------------------------------
 [A life, measured]
-Small label: A life, measured
+Small label: And finally, her life
 Headline: How long a cow lives depends on what she is for.
 Lead: Left to live out her days, a cow typically reaches 15 to 20 years. In farming, almost none come close.
 Bar: Veal calf | raised for meat | 0.33 | 16–18 weeks | farming
@@ -48,23 +74,10 @@ Bar: Big Mama | at Riverview Rescue | 29 | 29 years | sanctuary
 Footnote: Farming figures are typical ages at slaughter. Big Mama was the herd's oldest cow, one of the first three Allison saved.
 
 
-# ------------------------------------------------------------
-#  The three boxes. Each "Card" line has three parts separated by | bars:
-#
-#      Card: small tag | title | text
-# ------------------------------------------------------------
-[Who they are]
-Small label: Who they are
-Headline: What the science says about cows.
-Card: Friendship | They have best friends. | In a study of dairy cattle at the University of Northampton, cows penned with a preferred companion had lower heart rates and were calmer than when penned with a cow who wasn't a close companion.
-Card: Family | Mothers and calves bond. | When a bonded cow and calf are separated early, researchers record both searching and calling for each other. At Riverview, they don't have to.
-Card: Time | They are built to live decades. | A cow's natural lifespan is 15 to 20 years, and some live far longer. Big Mama reached 29, more than fifteen times the life of a typical beef steer.
-
-
 [The scale of it]
 Small label: The scale of it
 Statement: 29.8 million cattle were slaughtered in the United States in 2025. Riverview has saved *thirty-two.*
-Text: It is a small number beside a very large one. But to each of those thirty-two, it is everything. And we hope everyone who comes to know them sees cows a little differently afterwards.
+Text: It is a small number beside a very large one. But to each of those thirty-two, it is everything: a full life on the same earth we all share. And we hope everyone who comes to know them sees cows a little differently afterwards.
 
 
 # "Text" and "Quote" lines here appear on the page in the order you write them.
@@ -73,7 +86,7 @@ Small label: Where we come from
 Headline: This isn't about blame.
 Text: Riverview's founder was raised to be a third-generation beef farmer. She grew up inside this world, loving the animals she was expected to sell.
 Quote: When they were sold, I had no voice in what happened to them. I cried when they left, but I was still expected to help load them.
-Text: Nobody here is asking you to feel guilty. We are asking you to look: at a calf in a winter coat, at a 4,400-pound steer named Jeffrey, at a mother nuzzling her newborn. And to let it change what you see.
+Text: Nobody here is asking you to feel guilty. We are asking you to look: at a calf in a winter coat, at a 4,400-pound steer named Jeffrey, at a mother nuzzling her newborn. And to ask whether animals this gentle should have to suffer for us at all.
 Photo: allison-selfie.jpg
 Photo description: Allison smiling, cheek pressed against the face of a large black cow
 

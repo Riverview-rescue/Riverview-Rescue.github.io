@@ -153,7 +153,7 @@ Answer: Please email rvrscows@gmail.com and tell us how you would like to help.
 [Question]
 Question: Can my business become a sponsor?
 Answer: Yes, we would love that. Sponsors are thanked by name on our home page, with a link to their website. Email rvrscows@gmail.com to get started.
-Button text: See our sponsors
+Button text: Become a sponsor
 Button link: index.html#sponsors
 
 [Question]

@@ -19,6 +19,7 @@
 #
 #  - Sponsors appear on the site in the same order as in this file.
 #  - To remove a sponsor, delete its whole block.
+#  - With no sponsors listed, the section shows only the "Become a sponsor" box.
 #  - Lines that start with # are notes like this one. The website ignores them.
 #
 #
@@ -51,28 +52,17 @@ Invitation: Become a sponsor
 Contact email: rvrscows@gmail.com
 
 
+# Shown instead of the heading and intro above while there are no
+# sponsors listed in this file. As soon as you add the first [Sponsor],
+# the label, heading and intro above are used and these three lines are ignored.
+[No sponsors yet]
+Small label: Sponsor the herd
+Heading: Help keep the herd fed.
+Intro: Does your business or family want to stand behind Riverview Rescue and Sanctuary? Sponsors are thanked here by name, with a link to their website.
+
+
 # ------------------------------------------------------------
-#  The four sponsors below are EXAMPLES so you can see how the
-#  section looks. Replace them with real sponsors, or delete them.
-#  The first one shows a logo; the others show initials.
+#  SPONSORS GO BELOW THIS LINE
+#  There are none yet. Only list real sponsors who have agreed to be
+#  named. Copy the example from the top of this file to add one.
 # ------------------------------------------------------------
-
-[Sponsor]
-Name: Your Business Here
-Website: https://example.com
-Note: Example sponsor with a logo
-Logo: example-logo.png
-
-[Sponsor]
-Name: Example Feed & Supply
-Website: https://example.com
-Note: Hastings, Nebraska
-
-[Sponsor]
-Name: Example Veterinary Clinic
-Website: https://example.com
-Note: Caring for the herd
-
-[Sponsor]
-Name: Example Family Foundation
-Website: https://example.com

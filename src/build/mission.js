@@ -23,9 +23,33 @@ ${WAVE}
       <div class="wrap narrow reveal">
         ${eyebrow(e, 'What we believe')}
         <h2>“${fmt(first(e, 'quote'))}”</h2>
-${first(e, 'lead') ? `        <p class="lead">${rich(first(e, 'lead'))}</p>\n` : ''}${paras(e, '        ')}
+${first(e, 'lead') ? `        <p>${rich(first(e, 'lead'))}</p>\n` : ''}${paras(e, '        ')}
       </div>
     </section>`);
+
+  // The two rows of three boxes: who cows are, then what farming takes from them.
+  for (const [name, cls] of [['Who they are', ' section-paper'], ['What farming takes', '']]) {
+    e = section(doc, name);
+    const cards = every(e, 'card').map((c) => {
+      const [tag, title, text] = parts(c);
+      return `          <div class="card reveal">
+            ${tag ? `<span class="card-tag">${fmt(tag)}</span>` : ''}
+            <h3>${fmt(title || '')}</h3>
+            <p>${rich(text || '')}</p>
+          </div>`;
+    });
+    out.push(`    <section class="section${cls}">
+      <div class="wrap">
+        <div class="narrow reveal">
+          ${eyebrow(e, name)}
+          <h2>${fmt(first(e, 'headline'))}</h2>
+${first(e, 'lead') ? `          <p class="lead">${rich(first(e, 'lead'))}</p>\n` : ''}        </div>
+        <div class="cards">
+${cards.join('\n')}
+        </div>
+      </div>
+    </section>`);
+  }
 
   e = section(doc, 'A life, measured');
   const bars = every(e, 'bar').map((b) => {
@@ -48,27 +72,6 @@ ${first(e, 'lead') ? `          <p class="lead">${rich(first(e, 'lead'))}</p>\n`
 ${bars.join('\n')}
         </div>
 ${first(e, 'footnote') ? `        <p class="note reveal" style="margin-top: 1.4rem">${rich(first(e, 'footnote'))}</p>\n` : ''}      </div>
-    </section>`);
-
-  e = section(doc, 'Who they are');
-  const cards = every(e, 'card').map((c) => {
-    const [tag, title, text] = parts(c);
-    return `          <div class="card reveal">
-            ${tag ? `<span class="card-tag">${fmt(tag)}</span>` : ''}
-            <h3>${fmt(title || '')}</h3>
-            <p>${rich(text || '')}</p>
-          </div>`;
-  });
-  out.push(`    <section class="section">
-      <div class="wrap">
-        <div class="narrow reveal">
-          ${eyebrow(e, 'Who they are')}
-          <h2>${fmt(first(e, 'headline'))}</h2>
-        </div>
-        <div class="cards">
-${cards.join('\n')}
-        </div>
-      </div>
     </section>`);
 
   e = section(doc, 'The scale of it');
