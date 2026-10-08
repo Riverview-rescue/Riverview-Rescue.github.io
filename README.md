@@ -15,7 +15,6 @@ The website for Riverview Rescue and Sanctuary, Nebraska's only cow sanctuary. I
 | `build.js` | Builds the site with Node.js. One package, `sharp`, shrinks oversized photos and logos | Maintainer |
 | `tools/` | Two checks to run before publishing (see below) | Maintainer |
 | `.github/workflows/publish.yml` | Tells GitHub to build and publish the site on every change | Maintainer |
-| `_headers`, `netlify.toml` | Only used if the site is hosted on Netlify | Maintainer |
 | `dist/` | The finished site. Generated, never edited by hand, not kept in git | nobody |
 
 ## Build and preview

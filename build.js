@@ -126,7 +126,6 @@ async function build() {
   }
 
   copyDir(path.join(ROOT, 'assets'), path.join(OUT, 'assets'));
-  fs.copyFileSync(path.join(ROOT, '_headers'), path.join(OUT, '_headers'));
   fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 
   // The old website's page addresses, sent on to the matching new page.

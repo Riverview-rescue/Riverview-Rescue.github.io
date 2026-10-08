@@ -18,8 +18,7 @@ const hidden = !/^(no|n|false)$/i.test(first(doc.top, 'hide from search engines'
 // Lines for the top of every page.
 const robots = hidden ? '  <meta name="robots" content="noindex">\n' : '';
 // Tells the browser to load nothing from other websites and run no scripts but the site's own.
-// (The sha256 value is the hosting badge Netlify adds; it does nothing on other hosts.)
-const security = `  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-mTJ4cJaTm2Gw95GeXEpZdvEEY9ybh6FZu1bwcNE7QlY='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+const security = `  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">`;
 
 // ---------------------------------------------------------------- social links

@@ -1,16 +1,12 @@
-// Serves the site locally with the same security headers Netlify will send, and reports anything the browser blocks.
+// Serves the built site locally the way GitHub Pages does (no extra headers: the security policy is the
+// <meta> tag in every page), and reports anything the browser blocks.
 const http = require('http'), fs = require('fs'), path = require('path'), puppeteer = require('puppeteer-core');
 const ROOT = path.join(__dirname, '..', 'dist').split(path.sep).join('/');
-const hdr = {};
-for (const line of fs.readFileSync(ROOT + '/_headers', 'utf8').split('\n')) {
-  const m = /^  ([A-Za-z-]+): (.*)$/.exec(line);
-  if (m && m[1] !== 'Strict-Transport-Security') hdr[m[1]] = m[2].replace('; upgrade-insecure-requests', '');
-}
 const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 const srv = http.createServer((req, res) => {
   const p = path.join(ROOT, decodeURIComponent(req.url.split('?')[0] === '/' ? '/index.html' : req.url.split('?')[0]));
   if (!fs.existsSync(p)) { res.writeHead(404); return res.end(); }
-  res.writeHead(200, { ...hdr, 'Content-Type': types[path.extname(p)] || 'application/octet-stream' });
+  res.writeHead(200, { 'Content-Type': types[path.extname(p)] || 'application/octet-stream' });
   res.end(fs.readFileSync(p));
 }).listen(8765, async () => {
   const b = await puppeteer.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: 'new' });

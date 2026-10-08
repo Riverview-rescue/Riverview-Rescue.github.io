@@ -1,4 +1,0 @@
-# Tells Netlify how to publish the site: run the build, then serve the dist folder.
-[build]
-  command = "node build.js"
-  publish = "dist"
